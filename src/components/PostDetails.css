@@ -1,0 +1,50 @@
+/* postDetails.css */
+
+.container-details {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 0 16px;
+}
+
+.details-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #1976d2;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.details-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+.details-card:hover {
+  box-shadow: 0 8px 24px rgba(25, 118, 210, 0.5);
+}
+
+.post-title {
+  font-weight: 600;
+  color: #0d47a1;
+}
+
+.post-body {
+  margin-top: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.not-found-text {
+  margin-top: 40px;
+  text-align: center;
+  color: #b71c1c;
+  font-weight: 600;
+}
